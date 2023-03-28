@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:#000
+}
+body {
+    background-image: linear-gradient(to left, #7bdeebad, #77ffff);
+  }
+
+
+.main-section{
+    min-height: calc(80vh-100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-box{
+    box-shadow: 0 0 4px #000;
+}
+.nav-bar,
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    width: 90%;
+}
+.links> li >a {
+    padding: 0.2rem 0;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 300px;
+}
+.links > li > a:hover {
+    background-color: rgb(226, 236, 177);
+    cursor: pointer;
+  }
+  /* ################################################################################ */
+
+
+  .form > h1 {
+    text-align: center;
+    gap: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 4px 1px #0000007d;
+    border-radius: 8px;
+    padding: 1.5rem;
+    min-width: 100px;
+    background-color: #d2e8ff;
+  }
+  
+  .inp {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 0.7rem;
+  }
+  
+  .alertInp {
+    box-shadow: 0 0 3px red;
+  }
+  
+  .inp::placeholder {
+    font-size: 0.8rem;
+  }
+  
+  .inp:focus {
+    box-shadow: 0 0 2px #000;
+  }
+
+  
+  .form > label {
+    font-size: 0.8rem;
+    width: fit-content;
+  }
+
+.btn {
+  width: 100%;
+  border: none;
+  background: none;
+  box-shadow: 0 0 3px #000;
+  padding: 0.3rem;
+  border-radius: 8px;
+  margin: 0.5rem auto;
+  background-image: linear-gradient(to right, #e13a18, #d8ed1a);
+  opacity: 0.8;
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+}
+.btn:hover {
+    opacity: 1;
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+.box div{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background: transparent;
+    width: 90%;
+    height: 40px;
+    color: #0a0a0a;
+    padding-block: 5px;
+    
+}
+.result{
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(235, 18, 18);
+}
+.result-btn
+{
+    background-color: rgb(59, 157, 244);
+    border-radius: 25px;
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#selecting{
+    padding: 5px 12px; 
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 520;
+}
+#selecting:hover{
+    border: 2px solid #000;
+}

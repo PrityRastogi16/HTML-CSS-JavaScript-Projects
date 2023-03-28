@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+  <header class="nav-box">
+    <nav class="navbar">
+        <ul class="links">
+          <li><a href="./passwordValidator.html">Password Validator</a></li>
+          <li><a href="./colorMixture.html">Color Mixture</a></li>
+          <li><a href="./calculator.html">Calculator</a></li>
+          <li><a href="./highestMarks.html">Highest Marks</a></li>
+           <li><a href="./capatalize.html">Capatalize</a></li>
+           <li><a href="./vowelCounter.html">VowelCount</a></li>
+           <li><a href="./removeDuplicates.html">Remove Duplicates</a></li>
+           <li><a href="./starPattern.html">Print Pattern</a></li>
+           <li><a href="./divisibilityCheck.html">Divisibility Check</a></li>
+           <li><a href="./bugCorrection.html">Correct a bug</a></li>
+           <li><a href="./unitConverter.html">Unit converter</a></li>
+           <li><a href="./rentalCost.html">Rental cost</a></li>
+           <li><a href="./billSplitter.html">Bill splitter</a></li>
+           <li><a href="./orderPrice.html">Final order price</a></li>
+           <li><a href="./percentageDiscount.html"></a>percentage of the discount</li>
+           <li><a href="./randomNumber.html"></a>Generate a random number</li>
+           <li><a href="./bankingApplication.html"></a>Banking application</li>
+           <li><a href="./changeText.html">Change Text</a></li>
+           <li><a href="./validatePassword.html">Validate Password</a></li>
+           <li><a href="./addingListItems.html">Adding List Items</a></li>
+           <li><a href="tOdOApp.html">TODO App</a></li>
+           <li><a href="./progressBar.html">Progress Bar</a></li>
+           <li><a href="./changeColor.html">Change the color</a></li>
+           <li><a href="./textHighlighting.html">Text Highlighting</a></li>
+           <li><a href="./moveImage.html">Move the Image</a></li>
+
+        </ul>
+    </nav>
+    </header>
+      <div class="container">
+      <div class="calc">
+        <form>
+          <div class="display">
+            <input type="text" name="display">
+          </div>
+          <div>
+          <input type="button" value="AC" class="givediffColor" onclick="display.value ='' ">
+          <input type="button" value="De" class="givediffColor" onclick="display.value= display.value.toString().slice(0,-1)">
+          <input type="button" value="." class="givediffColor" onclick="display.value +='.' ">
+          <input type="button" value="/" class="givediffColor" onclick="display.value +='/' ">
+        </div>
+        <div>
+          <input type="button" value="7" onclick="display.value +='7' ">
+          <input type="button" value="8" onclick="display.value +='8' ">
+          <input type="button" value="9" onclick="display.value +='9' ">
+          <input type="button" value="*" class="givediffColor" onclick="display.value +='*' ">
+        </div>
+        <div>
+          <input type="button" value="4" onclick="display.value +='4' ">
+          <input type="button" value="5" onclick="display.value +='5' ">
+          <input type="button" value="6" onclick="display.value +='6' ">
+          <input type="button" value="-" class="givediffColor" onclick="display.value +='-' ">
+        </div>
+        <div>
+          <input type="button" value="1" onclick="display.value +='1' ">
+          <input type="button" value="2" onclick="display.value +='2' ">
+          <input type="button" value="3" onclick="display.value +='3' ">
+          <input type="button" value="+" class="givediffColor" onclick="display.value +='+' ">
+        </div>
+        <div>
+          <input type="button" value="0" onclick="display.value +='0' ">
+          <input type="button" value="00" onclick="display.value +='00' ">
+          <input type="button" value="=" class="equal givediffColor" onclick="display.value = eval(display.value)">
+        </div>
+        </form>
+      </div>
+      </div>
+     <script src="/script.js"></script>
+   
+
+</body>
+</html>

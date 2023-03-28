@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:#000
+}
+body {
+    background-image: linear-gradient(to left, #7bdeebad, #77ffff);
+  }
+
+
+.main-section{
+    min-height: calc(80vh-100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-box{
+    box-shadow: 0 0 4px #000;
+}
+.nav-bar,
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    width: 90%;
+}
+.links> li >a {
+    padding: 0.2rem 0;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    width: 300px;
+}
+.links > li > a:hover {
+    background-color: rgb(226, 236, 177);
+    cursor: pointer;
+  }
+  /* ################################################################################ */
+
+  h1{
+    margin-top: 100px;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+ label{
+   font-size: 20px;
+   font-weight: 900;
+  }
+  input{
+    border: #000;
+    font-size: 20px;
+  }
+  .btn
+{
+    background-color: rgb(224, 68, 245);
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 15px;
+    border: 1px solid #000;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.btn:hover{
+    background-color:rgb(231, 248, 174);
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+    padding: 7px 16px;
+    
+}
+.box div{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    background: transparent;
+    width: 90%;
+    height: 40px;
+    color: #0a0a0a;
+    padding-block: 5px;
+    
+}
+.result{
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(235, 18, 18);
+}
+.result-btn
+{
+    background-color: rgb(59, 157, 244);
+    border-radius: 25px;
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+#selecting{
+    padding: 5px 12px; 
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 520;
+}
+#selecting:hover{
+    border: 2px solid #000;
+}
