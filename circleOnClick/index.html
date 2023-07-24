@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            min-height: 100vh;
+        }
+        h2{
+            text-align: center;
+            margin: 10px;
+            font-style: italic;
+            font-weight: 600;
+        }
+        .circle{
+            width: 35px;
+            height: 33px;
+            border: 2px solid black;
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgb(69, 205, 250);
+            /* transform: translate(-10%, -10%); */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Click Anywhere</h2>
+
+    <script>
+        const body = document.querySelector("body");
+        document.addEventListener("click", (e) =>{
+            const circle = document.createElement('div')
+            circle.classList.add("circle")
+
+            circle.style.top = `${e.pageY}px`;
+            circle.style.left = `${e.pageX}px`;
+
+            body.appendChild(circle);
+        })
+    </script>
+</body>
+</html>
